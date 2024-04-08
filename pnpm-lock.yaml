@@ -12,6 +12,10 @@ dependencies:
   react-loader-spinner: 4.0.0_react-dom@17.0.1+react@17.0.1
   react-router-dom: 5.3.0_react@17.0.1
 devDependencies:
+<<<<<<< HEAD
+=======
+  '@babel/plugin-proposal-private-property-in-object': 7.21.11
+>>>>>>> removed login form from the restaurent app
   eslint-config-airbnb: 18.2.1
   eslint-config-prettier: 8.1.0
   eslint-plugin-prettier: 3.3.1_a5f306c245f9405bc973aa159985476e
@@ -110,7 +114,11 @@ packages:
       integrity: sha512-SBuTAjg91A3eKOvD+bPEz3LlhHZRNu1nFOVts9lzDJTXshHTjII0BAtDS3Y2DAkdZdDKWVZGVwkDfc4Clxn1dg==
   /@babel/generator/7.22.5:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.22.5
+=======
+      '@babel/types': 7.24.0
+>>>>>>> removed login form from the restaurent app
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.18
       jsesc: 2.5.2
@@ -165,6 +173,27 @@ packages:
       '@babel/core': ^7.0.0
     resolution:
       integrity: sha512-Ji+ywpHeuqxB8WDxraCiqR0xfhYjiDE/e6k7FuIaANnoOFxAHskHChz4vA1mJC9Lbm01s1PVAGhQY4FUKSkGZw==
+<<<<<<< HEAD
+=======
+  /@babel/helper-create-class-features-plugin/7.22.5:
+    dependencies:
+      '@babel/helper-annotate-as-pure': 7.22.5
+      '@babel/helper-environment-visitor': 7.22.5
+      '@babel/helper-function-name': 7.22.5
+      '@babel/helper-member-expression-to-functions': 7.22.5
+      '@babel/helper-optimise-call-expression': 7.22.5
+      '@babel/helper-replace-supers': 7.22.5
+      '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
+      '@babel/helper-split-export-declaration': 7.22.5
+      semver: 6.3.0
+    dev: true
+    engines:
+      node: '>=6.9.0'
+    peerDependencies:
+      '@babel/core': ^7.0.0
+    resolution:
+      integrity: sha512-xkb58MyOYIslxu3gKmVXmjTtUPvBU4odYzbiIQbWwLKIHCsx6UGZGX6F1IznMFVnDdirseUZopzN+ZRt8Xb33Q==
+>>>>>>> removed login form from the restaurent app
   /@babel/helper-create-class-features-plugin/7.22.5_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
@@ -266,7 +295,11 @@ packages:
   /@babel/helper-function-name/7.22.5:
     dependencies:
       '@babel/template': 7.22.5
+<<<<<<< HEAD
       '@babel/types': 7.22.5
+=======
+      '@babel/types': 7.24.0
+>>>>>>> removed login form from the restaurent app
     dev: true
     engines:
       node: '>=6.9.0'
@@ -274,7 +307,11 @@ packages:
       integrity: sha512-wtHSq6jMRE3uF2otvfuD3DIvVhOsSNshQl0Qrd7qC9oQJzHvOL4qQXlQn2916+CXGywIjpGuIkoyZRRxHPiNQQ==
   /@babel/helper-hoist-variables/7.22.5:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.22.5
+=======
+      '@babel/types': 7.24.0
+>>>>>>> removed login form from the restaurent app
     dev: true
     engines:
       node: '>=6.9.0'
@@ -282,7 +319,11 @@ packages:
       integrity: sha512-wGjk9QZVzvknA6yKIUURb8zY3grXCcOZt+/7Wcy8O2uctxhplmUPkOdlgoNhmdVee2c92JXbf1xpMtVNbfoxRw==
   /@babel/helper-member-expression-to-functions/7.22.5:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.22.5
+=======
+      '@babel/types': 7.24.0
+>>>>>>> removed login form from the restaurent app
     dev: true
     engines:
       node: '>=6.9.0'
@@ -366,7 +407,11 @@ packages:
       '@babel/helper-optimise-call-expression': 7.22.5
       '@babel/template': 7.22.5
       '@babel/traverse': 7.22.5
+<<<<<<< HEAD
       '@babel/types': 7.22.5
+=======
+      '@babel/types': 7.24.0
+>>>>>>> removed login form from the restaurent app
     dev: true
     engines:
       node: '>=6.9.0'
@@ -390,7 +435,11 @@ packages:
       integrity: sha512-tK14r66JZKiC43p8Ki33yLBVJKlQDFoA8GYN67lWCDCqoL6EMMSuM9b+Iff2jHaM/RRFYl7K+iiru7hbRqNx8Q==
   /@babel/helper-split-export-declaration/7.22.5:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.22.5
+=======
+      '@babel/types': 7.24.0
+>>>>>>> removed login form from the restaurent app
     dev: true
     engines:
       node: '>=6.9.0'
@@ -606,6 +655,23 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-SOSkfJDddaM7mak6cPEpswyTRnuRltl429hMraQEglW+OkovnCzsiszTmsrlY//qLFjCpQDFRvjdm2wA5pPm9w==
+<<<<<<< HEAD
+=======
+  /@babel/plugin-proposal-private-property-in-object/7.21.11:
+    dependencies:
+      '@babel/helper-annotate-as-pure': 7.22.5
+      '@babel/helper-create-class-features-plugin': 7.22.5
+      '@babel/helper-plugin-utils': 7.24.0
+      '@babel/plugin-syntax-private-property-in-object': 7.14.5
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-property-in-object instead.
+    dev: true
+    engines:
+      node: '>=6.9.0'
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    resolution:
+      integrity: sha512-0QZ8qP/3RLDVBwBFoWAwCtgcDZJVwA5LUJRZU8x2YFfKNuFq161wK3cuGrALu5yiPu+vzwTAg/sMWVNeWeNyaw==
+>>>>>>> removed login form from the restaurent app
   /@babel/plugin-proposal-unicode-property-regex/7.18.6_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
@@ -974,6 +1040,19 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-KoK9ErH1MBlCPxV0VANkXW2/dw4vlbGDrFgz8bmUsBGYkFRcbRwMh6cIJubdPrkxRwuGdtCk0v/wPTKbQgBjkg==
+<<<<<<< HEAD
+=======
+  /@babel/plugin-syntax-private-property-in-object/7.14.5:
+    dependencies:
+      '@babel/helper-plugin-utils': 7.24.0
+    dev: true
+    engines:
+      node: '>=6.9.0'
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    resolution:
+      integrity: sha512-0wVnp9dxJ72ZUJDV27ZfbSj6iHLoytYZmh3rFcxNnvsJF3ktkzLDZPy/mA17HGsaQT3/DQsWYX1f1QGWkCoVUg==
+>>>>>>> removed login form from the restaurent app
   /@babel/plugin-syntax-private-property-in-object/7.14.5_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
@@ -2641,7 +2720,11 @@ packages:
     dependencies:
       '@babel/code-frame': 7.22.5
       '@babel/parser': 7.22.5
+<<<<<<< HEAD
       '@babel/types': 7.22.5
+=======
+      '@babel/types': 7.24.0
+>>>>>>> removed login form from the restaurent app
     dev: true
     engines:
       node: '>=6.9.0'
@@ -2656,7 +2739,11 @@ packages:
       '@babel/helper-hoist-variables': 7.22.5
       '@babel/helper-split-export-declaration': 7.22.5
       '@babel/parser': 7.22.5
+<<<<<<< HEAD
       '@babel/types': 7.22.5
+=======
+      '@babel/types': 7.24.0
+>>>>>>> removed login form from the restaurent app
       debug: 4.3.4
       globals: 11.12.0
     dev: true
@@ -14793,6 +14880,10 @@ packages:
     resolution:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
+<<<<<<< HEAD
+=======
+  '@babel/plugin-proposal-private-property-in-object': ^7.16.0
+>>>>>>> removed login form from the restaurent app
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5
   '@testing-library/user-event': 12.6.2

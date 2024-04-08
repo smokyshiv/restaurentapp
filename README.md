@@ -41,3 +41,7 @@ Develop a restaurant page, ensuring it is user-friendly and visually appealing.
   </button>
   </center>
 </a>
+<<<<<<< HEAD
+=======
+# Restaurent-app
+>>>>>>> removed login form from the restaurent app

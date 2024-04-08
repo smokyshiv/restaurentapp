@@ -6,12 +6,30 @@ import './index.css'
 import RestaurantContext from '../../context/RestaurantContext'
 
 const CartItem = props => {
+
   const {removeCartItem, incrementCartItemQuantity, decrementCartItemQuantity} =
     useContext(RestaurantContext)
 
   const {cartItemDetails} = props
   const {dishId, dishName, dishCalories, quantity, dishPrice, dishImage} =
     cartItemDetails
+
+  const {
+    removeCartItem,
+    incrementCartItemQuantity,
+    decrementCartItemQuantity,
+  } = useContext(RestaurantContext)
+
+  const {cartItemDetails} = props
+  const {
+    dishId,
+    dishName,
+    dishCalories,
+    quantity,
+    dishPrice,
+    dishImage,
+  } = cartItemDetails
+
 
   const onClickDecrement = () => {
     decrementCartItemQuantity(dishId)

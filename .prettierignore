@@ -1,3 +1,7 @@
 node_modules
 coverage
 build
+<<<<<<< HEAD
+=======
+/src/components/protectedRoute
+>>>>>>> removed login form from the restaurent app
