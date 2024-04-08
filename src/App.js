@@ -148,7 +148,7 @@ const App = () => {
 
   const renderSuccessView = () => (
     <>
-      <Route path="/" component={Home} />
+      <Route exact path="/" component={Home} />
       <Route exact path="/cart" component={CartRoute} />
     </>
   )
