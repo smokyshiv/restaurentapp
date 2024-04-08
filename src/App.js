@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+
 import {Switch, Route} from 'react-router-dom'
 import {useState, useEffect} from 'react'
 import Loader from 'react-loader-spinner'
@@ -146,13 +148,8 @@ const App = () => {
 
   const renderSuccessView = () => (
     <>
-<<<<<<< HEAD
-      <ProtectedRoute exact path="/" component={Home} />
-      <ProtectedRoute exact path="/cart" component={CartRoute} />
-=======
       <Route path="/" component={Home} />
       <Route exact path="/cart" component={CartRoute} />
->>>>>>> removed login form from the restaurent app
     </>
   )
 
@@ -195,14 +192,7 @@ const App = () => {
       }}
     >
       <div className="page-container">
-<<<<<<< HEAD
-        <Switch>
-          <Route exact path="/login" component={LoginForm} />
-          {renderMenuListContainer()}
-        </Switch>
-=======
         <Switch>{renderMenuListContainer()}</Switch>
->>>>>>> removed login form from the restaurent app
       </div>
     </RestaurantContext.Provider>
   )

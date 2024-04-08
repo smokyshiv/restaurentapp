@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import './index.css'
 import NavBar from '../NavBar'
 
